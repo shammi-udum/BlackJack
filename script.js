@@ -8,12 +8,13 @@ let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 let inputEl = document.getElementById("input-el")
 let user = " "
-let playerEl = document.getElementById("player-el")
+const playerEl = document.getElementById("player-el")
 let player = 200
+const ulEl = document.getElementById("ul-el")
 
-
-inputEl.addEventListener("click", function(){
-    inputEl.textContent = user
+playerEl.addEventListener("click", function(){
+    user.push(inputEl.value)
+    inputEl.value = " "
 })
 
 playerEl.textContent =  "$ " + player
@@ -63,4 +64,8 @@ function newCard(){
         cards.push(card)
         renderGame()
  }
+}
+
+function renderUser(){
+    
 }
