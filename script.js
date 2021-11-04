@@ -29,7 +29,7 @@ function getRandomCard(){
         return randomCard
     }
 }
-
+//Starts game once the startgame button is clicked
 function startGame(){
    let firstCard = getRandomCard()
    let secondCard = getRandomCard()
