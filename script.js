@@ -18,7 +18,7 @@ playerEl.addEventListener("click", function(){
 })
 
 playerEl.textContent =  "$ " + player
-
+// connected to the startgame() function 
 function getRandomCard(){
     let randomCard = Math.floor( Math.random() * 13 ) + 1
     if ( randomCard > 10 ) {
