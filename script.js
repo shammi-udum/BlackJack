@@ -56,7 +56,7 @@ function renderGame(){
     messageEl.textContent = message
     sumEl.textContent = "Sum: " + sum
 }
-
+// Connected to startGame() function to draw another card
 function newCard(){
     if ( isAlive === true && hasBlackJack === false ) {
         let card = getRandomCard()
