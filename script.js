@@ -1,7 +1,9 @@
 let cards = []
 let sum = 0
 let hasBlackJack = false
+//state of the game
 let isAlive = false
+//state of the game
 let message = " "
 let messageEl = document.getElementById("message-el")
 //this is where we're storing the message in the paragraph
