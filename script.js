@@ -5,6 +5,7 @@ let hasBlackJack = false
 let isAlive = false
 //state of the game
 let message = " "
+//messages for the if else statements
 let messageEl = document.getElementById("message-el")
 //this is where we're storing the message in the paragraph
 let sumEl = document.getElementById("sum-el")
