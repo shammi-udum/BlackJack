@@ -35,12 +35,12 @@ function getRandomCard(){
 }
 //Starts game once the startgame button is clicked
 function startGame(){
+   isAlive = true
    let firstCard = getRandomCard()
    let secondCard = getRandomCard()
    cards = [firstCard, secondCard]
    sum = firstCard + secondCard
-    isAlive = true
-    renderGame()
+   renderGame()
 }
 
 function renderGame(){
