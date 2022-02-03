@@ -45,6 +45,7 @@ function startGame(){
 
 function renderGame(){
     cardsEl.textContent = "Cards: "    
+    // render out all the cards we have
     for ( let i = 0; i < cards.length; i++ ){
         cardsEl.textContent += cards[i] + " "
     }
