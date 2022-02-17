@@ -11,6 +11,7 @@ let message = " "
 let messageEl = document.getElementById("message-el")
 //this is where we're storing the message in the paragraph
 let sumEl = document.getElementById("sum-el")
+//displays the sum of the cards value after starting game and drawing a new card
 let cardsEl = document.getElementById("cards-el")
 let inputEl = document.getElementById("input-el")
 let user = []
