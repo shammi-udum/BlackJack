@@ -68,6 +68,7 @@ function newCard(){
         let card = getRandomCard()
         sum += card
         cards.push(card)
+        //pushes new card into cards array
         renderGame()
         console.log("clicked")
  }
