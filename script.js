@@ -1,6 +1,7 @@
 let cards = []
 // an array to store list of cards that are drawn.
 let sum = 0
+// starting sum 
 let hasBlackJack = false
 //state of the game
 let isAlive = false
