@@ -13,6 +13,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 //displays the sum of the cards value after starting game and drawing a new card
 let cardsEl = document.getElementById("cards-el")
+//displays the individual cards in the array
 let inputEl = document.getElementById("input-el")
 let user = []
 const playerEl = document.getElementById("player-el")
