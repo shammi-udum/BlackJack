@@ -16,16 +16,17 @@ let cardsEl = document.getElementById("cards-el")
 //displays the individual cards in the array
 let inputEl = document.getElementById("input-el")
 let user = []
-const playerEl = document.getElementById("player-el")
+let playerEl = document.getElementById("player-el")
 let player = 200
 const ulEl = document.getElementById("ul-el")
 
 playerEl.addEventListener("click", function(){
     user.push(inputEl.value)
     inputEl.value = " "
+    playerEl.textContent =  "$ " + player
 })
 
-playerEl.textContent =  "$ " + player
+//playerEl.textContent =  "$ " + player
 // connected to the startgame() function 
 function getRandomCard(){
     let randomCard = Math.floor( Math.random() * 13 ) + 1
