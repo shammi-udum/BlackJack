@@ -17,6 +17,7 @@ let cardsEl = document.getElementById("cards-el")
 let inputEl = document.getElementById("input-el")
 let user = []
 let playerEl = document.getElementById("player-el")
+//displays data in the <p> tag 
 let player = 200
 const ulEl = document.getElementById("ul-el")
 
