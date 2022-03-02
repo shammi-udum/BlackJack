@@ -24,7 +24,7 @@ const ulEl = document.getElementById("ul-el")
 playerEl.addEventListener("click", function(){
     user.push(inputEl.value)
     inputEl.value = " "
-    playerEl.textContent =  "$20" + player
+    playerEl.textContent =  "$200" + player
 })
 
 //playerEl.textContent =  "$ " + player
