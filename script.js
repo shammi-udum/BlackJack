@@ -14,20 +14,14 @@ let sumEl = document.getElementById("sum-el")
 //displays the sum of the cards value after starting game and drawing a new card
 let cardsEl = document.getElementById("cards-el")
 //displays the individual cards in the array
-let inputEl = document.getElementById("input-el")
-let user = []
 let playerEl = document.getElementById("player-el")
 //displays data in the <p> tag 
-let player = 200
-const ulEl = document.getElementById("ul-el")
+let player = {
+    name: "Player",
+    chips: 200
+}
 
-playerEl.addEventListener("click", function(){
-    user.push(inputEl.value)
-    inputEl.value = " "
-    playerEl.textContent =  "$200" + player
-})
-
-//playerEl.textContent =  "$ " + player
+playerEl.textContent =  player.name + ": $ " + player.chips
 // connected to the startgame() function 
 function getRandomCard(){
     let randomCard = Math.floor( Math.random() * 13 ) + 1
@@ -75,10 +69,5 @@ function newCard(){
         cards.push(card)
         //pushes new card into cards array
         renderGame()
-        console.log("clicked")
  }
-}
-
-function renderUser(){
-    
 }
